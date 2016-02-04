@@ -7,12 +7,13 @@ class Test {
 }
 
 public class RandomTest extends BaseDemo {
+
 	/** try java.util.Random */
-	
-	public static void main(String[] args) {
+	public static void main(String args[]) {
 		Random rand = new Random();
-		print(rand.nextInt(100));
-		print(rand.nextInt(100));
-		print(rand.nextFloat());
+		println(rand.nextInt(100));
+		println(rand.nextBoolean());
+		println(rand.nextDouble());
+		println(rand.nextFloat());
 	}
 } ///:~

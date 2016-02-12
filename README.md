@@ -1,5 +1,4 @@
 # Java-Demo
-Some Demo
 
 | File  | Description |
 | ------------- | ------------- |

@@ -29,17 +29,13 @@ public class ConstructorTest {
 	}
 	
 	/**
-	 * 创建一个类时，将从父到子运行构造器
+	 * 第一次创建一个类时，将从父到子运行构造器
 	 * 运行顺序为父static\子static\父普通\父构造器\子普通\子构造器：
-	 * parent-static
-	 * child-static
-	 * parent
-	 * parentConstructor
-	 * child
-	 * childConstructor
+	 * 第二次时顺序为父普通\父构造器\子普通\子构造器
 	 */
 	public static void main(String args[]) {
 		// it will print 1 and 2
 		Test test = new Test2();
+		Test test2 = new Test2();
 	}
 }

@@ -1,6 +1,5 @@
 package demo;
 import java.util.Random;
-//: test01/main.java
 
 
 public class RandomTest extends BaseDemo {
@@ -12,4 +11,4 @@ public class RandomTest extends BaseDemo {
 		println(rand.nextDouble());
 		println(rand.nextFloat());
 	}
-} ///:~
+}

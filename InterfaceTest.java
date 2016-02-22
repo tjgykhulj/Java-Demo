@@ -8,6 +8,8 @@ public class InterfaceTest extends BaseDemo {
 	interface CanSwim { void swim(); }
 	interface test extends CanWalk, CanRun, CanSwim {
 		// interface can extends multiply
+		// interface can set constant easily because it's static final (default)
+		int JANUARY = 1, FEBRUARY = 2;
 	}
 	
 	/* that will be wrong, because different return type but the same name "walk()".
@@ -24,5 +26,17 @@ public class InterfaceTest extends BaseDemo {
 	static class Hero extends Normal
 	implements CanRun, CanSwim {
 		public void swim() { println("swim"); }
+	}
+	
+	// this private prevent the class outside to implement it
+	private interface D {
+		void test();
+	}
+	static public class DImpl implements D {
+		public void test() { System.out.println("test"); }
+	}
+	public static void main(String args[]) {
+		D d = new DImpl();
+		d.test();
 	}
 }

@@ -1,16 +1,20 @@
 package demo;
 
+// if something is a base class, it should be a interface  
 public class InterfaceTest extends BaseDemo {
 	// all method in interface will be public (default) 
-	interface CanRun { void run(); }
-	interface CanJump { void jump(); }
+	interface CanWalk { void walk(); }
+	interface CanRun extends CanWalk { void run(); }
 	interface CanSwim { void swim(); }
-	static class Normal {
-		public void run() { println("run"); }
-		public void jump() { println("jump"); }
+	interface test extends CanWalk, CanRun, CanSwim {
+		// interface can extends multiply
 	}
-	static class Hero extends Normal 
-	implements CanRun, CanJump, CanSwim	{
+	static class Normal {
+		public void walk() { println("walk"); }
+		public void run() { println("run"); }
+	}
+	static class Hero extends Normal
+	implements CanRun, CanSwim {
 		public void swim() { println("swim"); }
 	}
 }

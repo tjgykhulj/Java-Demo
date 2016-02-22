@@ -9,6 +9,14 @@ public class InterfaceTest extends BaseDemo {
 	interface test extends CanWalk, CanRun, CanSwim {
 		// interface can extends multiply
 	}
+	
+	/* that will be wrong, because different return type but the same name "walk()".
+	interface CanTest { int walk(); }
+	interface test2 extends CanWalk, CanTest {
+		
+	}
+	*/
+	
 	static class Normal {
 		public void walk() { println("walk"); }
 		public void run() { println("run"); }

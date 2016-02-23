@@ -6,18 +6,20 @@ public class Factory extends BaseDemo {
 	interface Tree { void grow(); }
 	interface TreeFactory { Tree getTree(); }
 	
-	static class TreeOak implements Tree {
-		TreeOak() {
+	static class TreeImpl implements Tree {
+		private TreeImpl() {
 			println("Plant an Oak");
 		}
 		public void grow() {
 			println("grow slowly");
 		}
-	}
-	static class TreeOakFactory implements TreeFactory {
-		public Tree getTree() {
-			return new TreeOak();
-		}
+		//Set factory here, the constructor can be private
+		static TreeFactory factory = new TreeFactory() 
+		{
+			public Tree getTree() {
+				return new TreeImpl();
+			}
+		};
 	}
 	
 	static void plantTree(TreeFactory factory) {
@@ -26,6 +28,6 @@ public class Factory extends BaseDemo {
 	}
 	public static void main(String args[]) 
 	{
-		plantTree(new TreeOakFactory());
+		plantTree(TreeImpl.factory);
 	}
 }

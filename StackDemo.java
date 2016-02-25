@@ -9,4 +9,5 @@ public class StackDemo<T> {
 	public T pop() { return storage.removeFirst(); }
 	public boolean isEmpty() { return storage.isEmpty(); }
 	public String toString() { return storage.toString(); }
+	
 }

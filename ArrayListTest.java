@@ -26,6 +26,7 @@ public class ArrayListTest extends BaseDemo {
 		
 		/*
 		 * Iterator can work with different types of collection
+		 * 因为无关容器，所以方便复用代码 ( next and remove )
 		 */
 		Iterator it = collection.iterator();
 		while (it.hasNext()) print(it.next() + " ");

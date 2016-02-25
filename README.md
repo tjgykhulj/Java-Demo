@@ -12,5 +12,6 @@
 | 1.0 | InterfaceTest.java | Interface Test |
 | 1.1 | InnerClass.java | Test inner class |
 | 1.1 | PolymorphismTest.java | Test polymorphism\abstract in Java |
-| 1.2 | ArrayListTest.java  | Test <b>ArrayList</b> and Iterator |
-| 1.2 | StackDemo.java | Implements stack by <b>LinkList</b> |
+| 1.2 | ArrayListTest.java  | Test <b>ArrayList</b> (Collection) and <b>Iterator</b> |
+| 1.2 | HashSetTest.java | Test HashSet (Collection) |
+| 1.2 | StackDemo.java | Implements Stack by <b>LinkList</b> |

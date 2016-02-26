@@ -17,4 +17,4 @@
 | 1.2 | HashSetTest.java | Test <b>HashSet</b> (Collection) |
 | 1.2 | QueueTest.java | Test <b>Queue</b>(LinkList) and <b>PriorityQueue</b> |
 | 1.2 | StackDemo.java | Implements <b>Stack</b> by <b>LinkList</b> |
-
+| 1.2 | ExceptionAndLoggingTest.java | Test Exception and Logging in Java |

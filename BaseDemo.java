@@ -1,7 +1,6 @@
 package demo;
 
 public class BaseDemo {
-	int x;
 	/** a base class that contains some useful functions */
 	public static void println(Object s) {
 		System.out.println(s);

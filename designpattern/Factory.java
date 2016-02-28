@@ -31,3 +31,4 @@ public class Factory extends BaseDemo {
 		plantTree(TreeImpl.factory);
 	}
 }
+

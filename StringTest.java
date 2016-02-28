@@ -4,6 +4,7 @@ import java.util.Formatter;
 
 public class StringTest extends BaseDemo {
 	
+	@SuppressWarnings("resource")
 	public static void main(String args[]) {
 		String s = "ABCDEFG";
 		// create a char[], contains all character of s
@@ -16,7 +17,6 @@ public class StringTest extends BaseDemo {
 		//  -1 if s<test, 0 if s==test, 1 if s>test
 		println("s vs AC : " + s.compareTo(test));
 		
-		String test2 = "abcdefg";
 		println("s == abcdefg(if not case sensitive) : " + s.equalsIgnoreCase(test));
 		println("s is start with 'ABC'? " + s.startsWith("ABC"));
 		println("s is start with 'ABC'? " + s.endsWith("ABC"));
@@ -35,10 +35,5 @@ public class StringTest extends BaseDemo {
 		// or you can:
 		Formatter f = new Formatter(System.out);
 		f.format("Test Formatter in %s.\n", lang);
-		
-		println("Test Regular Expression : \n");
-		println(s.matches("\\d"));	// match a digit
-		println(s.matches("A?BCDEFG")); // ? means anything is ok
-		
 	}
 }

@@ -19,3 +19,4 @@
 | 1.2 | StackDemo.java | Implements <b>Stack</b> by <b>LinkList</b> |
 | 1.2 | ExceptionAndLoggingTest.java | Test Exception and Logging in Java |
 | 1.3 | StringTest.java | Test basic methods of String | 
+| 1.3 | StringTest2.java | Test regular expression, Scanner in Java | 

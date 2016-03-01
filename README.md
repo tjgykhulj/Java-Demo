@@ -20,4 +20,8 @@
 | 1.2 | ExceptionAndLoggingTest.java | Test Exception and Logging in Java |
 | 1.3 | StringTest.java | Test basic methods of String | 
 | 1.3 | StringTest2.java | Test regular expression, Scanner in Java |
-| 1.3 | ClassTest2.java | Test Name\CanonicalName\SimpleName of Class | 
+| 1.4 | ClassTest2.java | Test Name\CanonicalName\SimpleName of Class |
+| 1.4 | ClassTest3.java | Test random types creating. |
+| 1.4 | ClassTest4.java | Test map<class, integer(contains ex-genere> | 
+| 1.4 | DynamicProxy.java | Test Dynamic Proxy (implement InvocationHandler) | 
+| 1.4 | ReflectTest.java | Try to get private method\field by <b>Reflect</b>. |

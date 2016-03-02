@@ -24,10 +24,10 @@
 | 1.4 | ClassTest3.java | Test random types creating. | (default) |
 | 1.4 | ClassTest4.java | Test map<class, integer(contains ex-genere> | (default) | 
 | 1.4 | DynamicProxy.java | Test Dynamic Proxy (implement InvocationHandler) | (default) | 
-| 1.4 | ReflectTest.java | Try to get private method\field by <b>Reflect</b>. | (default) |
+| 1.4 | <b>ReflectTest</b>.java | Try to get private method\field by <b>Reflect</b>. | (default) |
 | 1.5 | TupleTest.java | Test generics : tuple | generics |
 | 1.5 | StackDemo2.java | Improved version of StackDemo(using generics) | generics | 
 | 1.5 | <b>MethodTest.java</b> | Test generic methods with class not generic | generics |
 | 1.5 | <b>OtherTest.java</b> | test something like what I saw in <SICP> | generics |
-| 2.0 | ThreadTest.java | Test : "extends" a Thread | multithread |
-| 2.0 | RunnableTest.java | Test : "implement" a Runnable | multithread |
+| 2.0 | ThreadTest.java | Test : "extends" a <b>Thread</b> | multithread |
+| 2.0 | RunnableTest.java | Test : "implement" a <b>Runnable</b> | multithread |

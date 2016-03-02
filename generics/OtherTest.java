@@ -2,6 +2,7 @@ package demo.generics;
 
 import java.util.*;
 
+// 此接口与fill函数可记下
 interface Generator<T> { T next(); }
 
 class FibonacciGen implements Generator<Integer> 

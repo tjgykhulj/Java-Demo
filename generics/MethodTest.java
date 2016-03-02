@@ -2,6 +2,7 @@ package demo.generics;
 
 import java.util.*;
 
+// 此类可记下
 class New {
 	// 要先申明<T>类型
 	public static <T> List<T> list() { return new ArrayList<T>(); }

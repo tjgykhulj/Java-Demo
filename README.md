@@ -28,6 +28,7 @@
 | 1.5 | TupleTest.java | Test generics : tuple | generics |
 | 1.5 | StackDemo2.java | Improved version of StackDemo(using generics) | generics | 
 | 1.5 | <b>MethodTest.java</b> | Test generic methods with class not generic | generics |
-| 1.5 | <b>OtherTest.java</b> | test something like what I saw in <SICP> | generics |
+| 1.5 | OtherTest.java | Test something like what I saw in <SICP> | generics |
+| 1.5 | OtherTest2.java | Test class instance in generics | generics |
 | 2.0 | ThreadTest.java | Test : "extends" a <b>Thread</b> | multithread |
 | 2.0 | RunnableTest.java | Test : "implement" a <b>Runnable</b> | multithread |

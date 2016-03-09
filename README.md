@@ -30,5 +30,6 @@
 | 1.5 | <b>MethodTest.java</b> | Test generic methods with class not generic | generics |
 | 1.5 | OtherTest.java | Test something like what I saw in <SICP> | generics |
 | 1.5 | OtherTest2.java | Test class instance in generics | generics |
+| 1.6 | Array.java | Test Array | (default) |  
 | 2.0 | ThreadTest.java | Test : "extends" a <b>Thread</b> | multithread |
 | 2.0 | RunnableTest.java | Test : "implement" a <b>Runnable</b> | multithread |

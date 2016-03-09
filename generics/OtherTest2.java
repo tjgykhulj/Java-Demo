@@ -2,6 +2,9 @@ package demo.generics;
 
 import java.util.*;
 
+class A {}
+class B {}
+
 public class OtherTest2<T> extends demo.BaseDemo 
 {
 	Class<T> kind;
@@ -40,6 +43,8 @@ public class OtherTest2<T> extends demo.BaseDemo
 		test.f(32);
 		test.f("32");
 		OtherTest2<String> test2 = new OtherTest2<String>(String.class);
-		println("Create a new instance of string is \"\"? " + test2.create().equals(""));
+		println("Create a new instance of string is \"\"? " + test.create().equals(""));
 	}
+	
+	
 }

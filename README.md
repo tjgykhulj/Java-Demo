@@ -4,7 +4,6 @@
 | ---------- | ------------- | ------------- | ------------- |
 | 0.0 | BaseDemo.java  | Base class   | (default) |
 | 0.0 | EnumTest.java | Test Enum in Java | (default) |
-| 0.0 | EqualsTest.java | Diff between 'equals' and '==' | (default) |
 | 0.0 | OtherTest.java | 	Some other matters needing attention | (default) |
 | 0.0 | RandomTest.java | Test Random Class in Java | (default) |
 | 1.0 | ClassTest.java | Features of class in Java | (default) |
@@ -32,5 +31,9 @@
 | 1.5 | OtherTest2.java | Test class instance in generics | generics |
 | 1.6 | ArrayTest.java | Test Array | (default) |
 | 1.6 | SortDemo.java | Test Comparable && Comparator && binarySearch | (default) |
+| 1.7 | SetTest.java | Test Collection and Other generics | collections |
+| 1.7 | SortedSetTest.java | Test SortedSet (TreeSet) | collections |
+| 1.7 | QueueTest.java | Test Queue (<b>PriorityQueue</b>) | collections |
+| 1.7 | HashMapTest.java | Test Map (<b>HashMap</b>) | collections |
 | 2.0 | ThreadTest.java | Test : "extends" a <b>Thread</b> | multithread |
 | 2.0 | RunnableTest.java | Test : "implement" a <b>Runnable</b> | multithread |

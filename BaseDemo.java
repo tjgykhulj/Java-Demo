@@ -1,5 +1,7 @@
 package demo;
 
+interface Generator<T> { T next(); }
+
 public class BaseDemo {
 	/** a base class that contains some useful functions */
 	public static void println(Object s) {

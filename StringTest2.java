@@ -21,6 +21,7 @@ after 23 minutes.
 		// you can invoke methods like stdin.nextInt()
 		Scanner stdin = new Scanner(System.in);
 		String input = stdin.nextLine();
+		//println(Arrays.toString(input.split("\\.|:|\\ ")));
 		println("match only digits : " + input.matches("\\d*"));
 		println("match only letters : " + input.matches("[a-z]*")); // match letter 'a'
 		println("replace [c-f] to 1 : " + input.replaceAll("[c-f]", "1")); // changes C-F to 1

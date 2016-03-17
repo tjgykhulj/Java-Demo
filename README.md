@@ -35,5 +35,6 @@
 | 1.7 | SortedSetTest.java | Test SortedSet (TreeSet) | collections |
 | 1.7 | QueueTest.java | Test Queue (<b>PriorityQueue</b>) | collections |
 | 1.7 | HashMapTest.java | Test Map (<b>HashMap</b>) | collections |
+| 1.7 | BitSetTest.java | Test BitSet | collections |
 | 2.0 | ThreadTest.java | Test : "extends" a <b>Thread</b> | multithread |
 | 2.0 | RunnableTest.java | Test : "implement" a <b>Runnable</b> | multithread |

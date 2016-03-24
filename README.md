@@ -40,6 +40,8 @@
 | 2.0 | FileTest2.java | print all files and dir under a foler | io |
 | 2.0 | FileTest3.java | other methods File can invoke | io |
 | 2.0 | IOTest.java | Test standard IO and PrintWriter | io |
+| 2.0 | IOTest2.java | Test FileChannel\ByteBuffer\FileLock | io |
+| 2.0 | IOTest2.java | Test Reader\GZIP | io |
 | 2.0 | OSExecuteTest.java | Exceute a command and return message | io | 
 | 3.0 | ThreadTest.java | Test : "extends" a <b>Thread</b> | multithread |
 | 3.0 | RunnableTest.java | Test : "implement" a <b>Runnable</b> | multithread |

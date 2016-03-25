@@ -2,11 +2,13 @@ package demo.io;
 
 import java.io.BufferedOutputStream;
 import java.io.BufferedReader;
-import java.io.File;
+import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.FileReader;
+import java.io.InputStreamReader;
+import java.util.zip.GZIPInputStream;
 import java.util.zip.GZIPOutputStream;
-
+ 
 public class IOTest3 {
 
 	public static void main(String[] args) throws Exception {
@@ -22,6 +24,12 @@ public class IOTest3 {
 						new FileOutputStream("test.gz")));
 		int c;
 		while ((c = in.read())!=-1) out.write(c);
+		in.close();
+		out.close();
+		
+		InputStreamReader gin = new InputStreamReader(
+				new GZIPInputStream(new FileInputStream("test.gz")));
+		
+		while ((c = gin.read()) != -1) System.out.print((char) c);
 	}
-
 }

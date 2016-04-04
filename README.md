@@ -42,6 +42,10 @@
 | 2.0 | IOTest.java | Test standard IO and PrintWriter | io |
 | 2.0 | IOTest2.java | Test FileChannel\ByteBuffer\FileLock | io |
 | 2.0 | IOTest2.java | Test Reader\GZIP | io |
-| 2.0 | OSExecuteTest.java | Exceute a command and return message | io | 
+| 2.0 | IOTest3.java | Test GZIP and Reader | io |
+| 2.0 | OSExecuteTest.java | Exceute a command and return message | io |
+| 2.1 | EnumTest2.java | Test Sub-Enum and EnumSet | (default) |
+| 2.2 | Test1.java | Test Junit | annotation |
+| 2.2 | Test0.java | sql auto Create-Table by annotation | annotation |
 | 3.0 | ThreadTest.java | Test : "extends" a <b>Thread</b> | multithread |
 | 3.0 | RunnableTest.java | Test : "implement" a <b>Runnable</b> | multithread |

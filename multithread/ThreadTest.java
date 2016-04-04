@@ -1,28 +1,31 @@
 package demo.multithread;
 
-public class ThreadTest extends Thread {
-	
-	int number;
-	static int count;
-	
-	/* In sub-type of Thread, it's hard to make a shared "testCount",
-	 * because there's one instance each thread.
-	 */
-	int testCount;
-	
-	ThreadTest() {
-		number = count++;
-	}
-	
-	@Override
-	public void run() {
-		for (int i=0; i<8; i++) 
-			System.out.printf("Thread %d : %d, total : %d\n", number, i, testCount++);
+import static demo.BaseDemo.*;
+
+public class ThreadTest 
+{
+	// Thread与Runnable的区别是否有网上说的那么明显呢？我认为得暂时搁置一下。
+	static class Test implements Runnable
+	{
+		static int count;
+		
+		int id;
+		Test() {
+			id = count++;
+			printf("Create %d\n", id);
+		}
+		@Override
+		public void run() {
+			printf("Run %d\n", id);
+			// 对线程调度器的建议，声明可以切换给其它任务了
+			Thread.yield();
+			Thread.yield();
+			Thread.yield();
+			printf("Close %d\n", id);
+		}
 	}
 	
 	public static void main(String args[]) {
-		ThreadTest a[] = { new ThreadTest(), new ThreadTest() };
-		a[0].start();
-		a[1].start();
+		for (int i=0; i<10; i++) new Thread(new Test()).start();
 	}
 }

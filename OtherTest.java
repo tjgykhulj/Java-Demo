@@ -11,6 +11,7 @@ public class OtherTest extends BaseDemo {
 		int a = 3;
 		long b = a;
 		int c = (int) b;
+		println(c);
 		}
 
 		/** can't get t if there's no initialize. */

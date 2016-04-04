@@ -2,10 +2,9 @@ package demo.multithread;
 
 public class RunnableTest 
 {
-	int count = 0;
-
-	class Test implements Runnable {
+	static class Test implements Runnable {
 		// In sub-type of Runnable, it's easy to share resource
+		int count = 0;
 		@Override
 		public void run() {
 			for (int i=0; i<8; i++) 
@@ -14,8 +13,8 @@ public class RunnableTest
 	}
 	
 	public static void main(String args[]) {
-		RunnableTest r = new RunnableTest();
-		new Thread(r.new Test()).start();
-		new Thread(r.new Test()).start();
+		Test test = new Test();
+		new Thread(test).start();
+		new Thread(test).start();
 	}
 }

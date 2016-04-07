@@ -47,5 +47,8 @@
 | 2.1 | EnumTest2.java | Test Sub-Enum and EnumSet | (default) |
 | 2.2 | Test1.java | Test Junit | annotation |
 | 2.2 | Test0.java | sql auto Create-Table by annotation | annotation |
-| 3.0 | ThreadTest.java | Test : "extends" a <b>Thread</b> | multithread |
-| 3.0 | RunnableTest.java | Test : "implement" a <b>Runnable</b> | multithread |
+| 3.0 | ThreadTest.java | Test <b>Runnable</b> and Thread.yield() | multithread |
+| 3.0 | ExcutorTest.java | Use <b>Excutor</b> to manager Thread automaticlly | multithread |
+| 3.0 | CallableTest.java | Test <b>Callable</b> and <b>sleep</b> | multithread |
+| 3.0 | DaemonTest.java | Test <b>setDaemon</b> | multithread |
+| 3.0 | SynchronizedTest.java | Test <b>synchronized</b> | multithread |

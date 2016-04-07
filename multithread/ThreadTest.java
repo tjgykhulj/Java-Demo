@@ -4,7 +4,8 @@ import static demo.BaseDemo.*;
 
 public class ThreadTest 
 {
-	// Thread与Runnable的区别是否有网上说的那么明显呢？我认为得暂时搁置一下。
+	// Thread与Runnable其实都能共享资源
+	// 但是如果创造了一个Thread对象x，再代入多个Thread新建很没意义
 	static class Test implements Runnable
 	{
 		static int count;

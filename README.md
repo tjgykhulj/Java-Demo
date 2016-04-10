@@ -51,4 +51,9 @@
 | 3.0 | ExcutorTest.java | Use <b>Excutor</b> to manager Thread automaticlly | multithread |
 | 3.0 | CallableTest.java | Test <b>Callable</b> and <b>sleep</b> | multithread |
 | 3.0 | DaemonTest.java | Test <b>setDaemon</b> | multithread |
-| 3.0 | SynchronizedTest.java | Test <b>synchronized</b> | multithread |
+| 3.0 | SynchronizedTest.java | Test <b>synchronized</b> and Critical Section | multithread |
+| 3.0 | LockTest.java | Test <b>locks</b> | multithread |
+| 3.0 | ThreadLockalTest.java | Test <b>ThreadLocal</b> | multithread |
+| 3.0 | InterruptTest.java | Another Test about <b>Future</b> and <b>Interrupt</b> | multithread |
+| 3.1 | ProducerAndConsumer.java | Simulating a Producer-Consumer using wait\notify | multithread |
+| 3.1 | ProducerAndConsumer2.java | Simulating a Producer-Consumer using BlockingQueue | multithread |

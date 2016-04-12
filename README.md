@@ -57,3 +57,6 @@
 | 3.0 | InterruptTest.java | Another Test about <b>Future</b> and <b>Interrupt</b> | multithread |
 | 3.1 | ProducerAndConsumer.java | Simulating a Producer-Consumer using wait\notify | multithread |
 | 3.1 | ProducerAndConsumer2.java | Simulating a Producer-Consumer using BlockingQueue | multithread |
+| 3.2 | wingConsole.java | Basic frame showing function | gui |
+| 3.2 | ButtonEventTest.java | Test <b>Button / ActionListener / TextArea</b> | gui | 
+| 3.2 | EventTest.java | Test Events in Swing | gui |

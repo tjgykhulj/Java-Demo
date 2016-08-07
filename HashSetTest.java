@@ -32,5 +32,4 @@ public class HashSetTest extends BaseDemo {
 		println("s1 or s2 : " + union(s1,s2));
 		println("s1 - s2 : " + subtraction(s1,s2));
 	}
-	
 }

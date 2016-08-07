@@ -1,5 +1,7 @@
 package demo.generics;
 
+import org.junit.Test;
+
 public class TupleTest {
 	
 	// it's tuple, a group of objects wrapped together into a single object 
@@ -18,5 +20,11 @@ public class TupleTest {
 			super(a,b);
 			third = c;
 		}
+	}
+	
+	@Test
+	public void test() {
+		
+		
 	}
 }

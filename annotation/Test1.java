@@ -7,8 +7,6 @@ import java.lang.reflect.Method;
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
-
-import org.apache.commons.beanutils.BeanUtils;
 import org.junit.*;
 
 import demo.BaseDemo;
@@ -51,8 +49,6 @@ public class Test1 {
 	public void work() throws Exception {
 		println("work");
 		Object c = new C();
-		BeanUtils.setProperty(c, "a", 1);
-		
 	}
 
 	@Test

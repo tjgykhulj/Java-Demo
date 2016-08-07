@@ -8,6 +8,7 @@ import org.junit.Test;
 
 public class CallableTest 
 {
+	Semaphore a;
 	static class MyCallable implements Callable<String> 
 	{
 		static int count;
@@ -26,8 +27,8 @@ public class CallableTest
 	}
 	@Test public void test1() throws InterruptedException, ExecutionException {
 		ExecutorService exec = Executors.newCachedThreadPool();
-		List<Future<String>> list = new ArrayList();
-		for (int i=0; i<4; i++) list.add(exec.submit(new MyCallable()));
+		List<Future<String>> list = new ArrayList<>();
+		for (int i=0; i<10; i++) list.add(exec.submit(new MyCallable()));
 		
 		for (Future<String> fs : list) System.out.println(fs.get());
 		exec.shutdown();

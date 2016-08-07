@@ -37,7 +37,7 @@ public class InterruptTest {
 			printf("[Mode %d] Thread start\n", mode);
 			try {
 				switch (mode) {
-				/*
+				/* 
 				 * sleep/lockInterruptibly可被打断，IO/Synchronized阻塞不可打断
 				 * 打断堵塞可通过外界的Future.cancel(true)
 				 * PS: NIO中有可打断的文件、网络通道
